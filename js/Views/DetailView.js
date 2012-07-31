@@ -5,7 +5,7 @@ define(function () {
 
         var product = parameters.products;
 		var len = (product.length)-1;
-		var img = "../SOFEA_GeekStoP/style/"+product[len].id+".JPG";
+		var img = "style/"+product[len].id+".JPG";
 
         var html = '<h1>Product Detail</h1>';
 		html += '<table cellspacing="0" cellpadding="0" width="900">'
